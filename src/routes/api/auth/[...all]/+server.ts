@@ -1,5 +1,9 @@
 // https://github.com/mmailaender/convex-better-auth-svelte/blob/main/src/lib/sveltekit/index.ts
 
+// we can probably use `toSvelteKitHandler` and/or `svelteKitHandler` from `better-auth` with `authWithoutCtx` here instead
+// https://www.better-auth.com/docs/integrations/svelte-kit#mount-the-handler
+// https://github.com/better-auth/better-auth/blob/canary/packages/better-auth/src/integrations/svelte-kit.ts
+
 import { PUBLIC_CONVEX_SITE_URL } from "$env/static/public";
 import type { RequestHandler } from "@sveltejs/kit";
 

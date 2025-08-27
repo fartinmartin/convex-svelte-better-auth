@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from "$app/state";
-	const { user } = page.data;
+	const user = page.data.user;
 </script>
 
 <pre>hello, {user?.name}!</pre>

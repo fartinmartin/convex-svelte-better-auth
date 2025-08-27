@@ -4,6 +4,7 @@ Messin' with Convex, SvelteKit, and Better Auth. Specifically, can I get anonymo
 
 ### Helpful repos
 
+- [`@better-auth/better-auth`](https://github.com/better-auth/better-auth)
 - [`@get-convex/better-auth`](https://github.com/get-convex/better-auth)
 - [`@mmailaender/convex-better-auth-svelte`](https://github.com/mmailaender/convex-better-auth-svelte)
 - [`@pierre-H/svelvix`](https://github.com/pierre-H/svelvix)

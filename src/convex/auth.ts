@@ -6,7 +6,6 @@ import {
 import { api, components, internal } from "./_generated/api";
 import { query } from "./_generated/server";
 import { DataModel, Id } from "./_generated/dataModel";
-// import { asyncMap } from "convex-helpers";
 
 const authFunctions: AuthFunctions = internal.auth;
 const publicAuthFunctions: PublicAuthFunctions = api.auth;
